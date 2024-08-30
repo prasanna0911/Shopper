@@ -8,8 +8,8 @@
 }
 
 .loginsignup-container {
-    width: 525px;
-    height: 525px;
+    width: 450px;
+    /* height: 525px; */
     background: white;
     margin: auto;
     padding: 40px 60px;
@@ -67,6 +67,7 @@
 .loginsignup-login span {
     font-weight: 600;
     color: #ff4141;
+    cursor: pointer;
 }
 
 .loginsignup-agree {
@@ -88,7 +89,7 @@
 
     .loginsignup-container {
         width: auto;
-        max-width: 500px;
+        max-width: 400px;
         max-height: 480px;
         height: auto;
     }
@@ -124,6 +125,7 @@
 @media(max-width:800px) {
     .loginsignup-container {
         padding: 20px 30px;
+        max-width: 350px;
     }
 
     .loginsignup-container h1 {
